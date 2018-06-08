@@ -1,0 +1,74 @@
+body
+{
+  font-family: Quicksand;
+}
+.frm
+{
+      display: flex;
+      justify-content: center;
+      width: 40rem;
+      margin-top: 10%;
+      background-color: rgba(138, 106, 140, 0.4);
+      padding: 3%;
+      text-align: center;
+      border-radius: 4rem;
+      position: relative;
+
+}
+.frm_in
+{
+   padding: 3%;
+}
+.form
+{
+  padding: 4%;
+}
+ .frm .inp
+{
+  border-radius: 2rem;
+  width: 30rem;
+  padding: 5%;
+}
+.button a
+{
+
+  border-radius: 3rem;
+  width:100%;
+}
+.button
+{
+  padding: 3%;
+  cursor:
+}
+.button fa-google
+{
+  margin-left: 0;
+  display: block;
+
+}
+.sign_in
+{
+  font-style: normal;
+  font-family: Quicksand;
+}
+.or
+{
+  text-align: center;
+  position: relative;
+}
+.or span::before , .or span::after
+{
+  display: block;
+  height: 2px;
+  position: absolute;
+  content: "";
+  top:0.9rem;
+  width:20%;
+  border-top: 1px solid black;
+}
+ .or span:before {
+  right: 75%;
+}
+.or span:after {
+  left: 75%;
+}
